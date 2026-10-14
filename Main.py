@@ -4,10 +4,6 @@ workbook = openpyxl.load_workbook("Organ.xlsx")
 
 sheet = workbook.active
 
-#for row in sheet.values:
-
-    #print(row)
-
 result_workbook = openpyxl.Workbook()
 
 result_sheet = result_workbook.active
